@@ -1,1 +1,3 @@
 this is test file, can read, write and open. all depend on you.
+
+这是段中文
