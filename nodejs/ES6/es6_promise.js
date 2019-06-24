@@ -43,8 +43,12 @@ function readFileP(file) {
 
 }
 
+console.log('before the promise test code.');
+
 readFileP('test.txt').then(function(data){
     console.log(data);
 }, function (err) {
     console.error(err);
 })
+
+console.log('after the promise test code.');
