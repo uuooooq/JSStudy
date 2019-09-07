@@ -4,7 +4,7 @@
 // 作为参数传递
 var getUserInfo = function (userId, callback) {
     if(typeof callback === 'function'){
-        callback('this a value');
+        callback('this a value'+userId);
     }
 }
 
