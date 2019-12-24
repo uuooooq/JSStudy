@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>群聊</title>
+</head>
+<body>
+<h1>群聊</h1>
+<button class="submit">点击</button>
+</body>
+<script src="https://cdn.bootcss.com/socket.io/2.2.0/socket.io.dev.js">
+// 这个script标签访问数据就相当访问了127.0.0.1:3000/socket.io/socket.io.js,浏览器打开其实就是socket.io插件源码
+</script>
+<script>
+$('#submit').click(function(){
+    var socket = io.connect('http://localhost:8080');     
+    socket.on('news', function (data) {    
+        alert(data.hello);
+    });
+    socket.emit('start',1)  
+
+    // 可以用close()断开连接。服务器端disconnect会监听到
+    socket.close();
+})
+</script>
+ 
+</html>

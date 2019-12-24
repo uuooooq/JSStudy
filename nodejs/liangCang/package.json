@@ -1,0 +1,15 @@
+{
+  "name": "LiangCang",
+  "version": "1.0.0",
+  "description": "LiangCang is save person's data system",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "main": "index.js",
+  "author": "zdw",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
