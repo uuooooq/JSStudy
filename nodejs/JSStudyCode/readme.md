@@ -5,6 +5,9 @@
 https://github.com/airbnb/javascript  
 https://github.com/libertyAlone/airbnb-javascript-style-guide-cn
 
+javascript语法列表 
+https://github.com/daumann/ECMAScript-new-features-list
+
 ``` 
 
 
@@ -29,3 +32,6 @@ https://github.com/libertyAlone/airbnb-javascript-style-guide-cn
     访问对象的多个属性时使用对象解构
     数组解构
 <font color=red>怎么使用
+
+##### 6. 箭头函数
+    便利化使用
